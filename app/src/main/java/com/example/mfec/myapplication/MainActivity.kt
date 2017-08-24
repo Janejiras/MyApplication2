@@ -10,9 +10,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //Commit
         jane()
+        janeji()
     }
     fun jane() = 4+4
+    fun janeji(){
 
+    }
 
 
 
