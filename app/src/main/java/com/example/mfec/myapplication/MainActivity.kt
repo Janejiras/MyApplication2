@@ -1,7 +1,7 @@
 package com.example.mfec.myapplication
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,10 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        plus()
+        jane()
 
         //Commit
     }
 
-    fun plus() = 5+5
+    fun jane() = 5+5
+
+
+
 }
