@@ -9,7 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        plus()
+
+        //Commit
     }
 
-
+    fun plus() = 5+5
 }
